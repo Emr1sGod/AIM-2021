@@ -1,0 +1,38 @@
+var line name;
+var brief length;
+var brief number;
+var line str1;
+var line str2;
+var line resultstr;
+
+brief action lengthname(line l)
+{
+ length = range(l);
+ when(length > 5)?
+ {
+ output('More than 5'); 
+ }
+ either
+ {
+ output('No more than 5');
+ }
+ giveback length;
+};
+
+major
+{	
+ name = 'Kirill';
+ output(name);	
+ length = lengthname(name);
+ output('Name length: ');
+ output(length);
+
+ number = 9;
+
+ from(0)end(2)$
+ {
+ output('Text');
+ }
+
+giveback 0;
+};

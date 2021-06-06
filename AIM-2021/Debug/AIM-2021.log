@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (KKV-2020.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Error.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\Error.cpp(89,3): warning C4002: слишком много аргументов для вызова макроса, подобного функции, "ERROR_ENTRY_NODEF"
+  FST.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\FST.cpp(290,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  FilesManager.cpp
+  Generation.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\Generation.cpp(198,80): warning C4129: p: неизвестная escape-последовательность
+  Greibach.cpp
+  IT.cpp
+  In.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\In.cpp(41,21): warning C4018: <: несоответствие типов со знаком и без знака
+  LT.cpp
+  LexAnaliz.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(104,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(211,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(242,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(505,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(507,41): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(509,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(511,23): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(564,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(566,33): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(570,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(572,37): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(605,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\LexAnaliz.cpp(607,37): warning C4018: >=: несоответствие типов со знаком и без знака
+  Log.cpp
+  MFST.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\MFST.cpp(241,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Main.cpp
+  Parm.cpp
+  PolishNotation.cpp
+  Semantic.cpp
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\Semantic.cpp(81,23): warning C4018: <: несоответствие типов со знаком и без знака
+  pch.cpp
+  Создание кода...
+C:\Users\Asus\Desktop\AIM-2021\AIM-2021\PolishNotation.cpp(41): warning C4715: findOperator: значение возвращается не при всех путях выполнения
+  AIM-2021.vcxproj -> C:\Users\Asus\Desktop\AIM-2021\Debug\AIM-2021.exe

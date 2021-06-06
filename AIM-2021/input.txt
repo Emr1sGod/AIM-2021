@@ -1,0 +1,111 @@
+var line name;
+var brief length;
+brief action lengthname(line l)
+{
+ length = range(l);
+ giveback length;
+};
+
+var brief sum;
+var brief sub;
+var brief mul;
+var brief div;
+var brief result1;
+var brief a;
+var brief b;
+var brief value;
+brief action calculator(brief number1, brief number2) 
+{
+ sum = number1 + number2;
+ output('Sum:');
+ output(sum);
+ sub = number1 - number2;
+ output('Sub:');
+ output(sub);
+ mul = number1 * number2;
+ output('Mul:');
+ output(mul);
+ div = number1 / number2;
+ output('Div:');
+ output(div);
+ result1 = sum + sub + mul + div;
+ giveback result1;
+};
+
+var brief x;
+var brief y;
+var brief z;
+var brief result2;
+brief action mod(brief number) 
+{
+ x = number % 2;
+ when(x = 0)?
+ {
+ result2 = 1;	 
+ }
+ either
+ {
+ result2 = 0;
+ }
+ giveback result2;
+};	
+
+var line str1;
+var line str2;
+var line resultstr;
+var brief hex;
+major
+{	
+ output('==========');
+ output('*AIM-2021*');
+ output('==========');
+
+ name = 'Ivan';
+ output(name);	
+ length = lengthname(name);
+ output('Name length: ');
+ output(length);
+
+ a = 10;
+ b = 5;
+ 
+ output(a);
+ output(b);
+ value = calculator(a, b);
+ output('Sum + Sub + Mul + Div: ');
+ output(value);
+
+ z = 18;
+ output('Number:');
+ output(18);
+ y = mod(z);
+ when(y = 1)?
+ {
+ output('Even'); 
+ }
+ either
+ {
+ output('Odd');
+ }
+ 
+ str1 = 'Name';
+ str2 = 'Adnomakh';
+ output('Str1:');
+ output(str1);
+ output('Str2:');
+ output(str2);
+ resultstr = copyline(str1, str2);
+ output('Str1:');
+ output(resultstr);
+ from(0)end(2)$
+ {
+ output('Text');
+ }
+
+ hex = &7E4;
+ output('HEX: 7E4');
+ output('DEC:');
+ output(hex);
+
+giveback 0;
+};

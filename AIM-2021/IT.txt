@@ -1,0 +1,64 @@
+                                                    ID TABLE
+
+              Name              Type         Data type       First in LT                      Value      Visibility
+
+  1           name            variable           line              2                            NV            0
+  2         length            variable          brief              6                             0            0
+  3     lengthname            function          brief             10                             0            0
+  4              l           parameter           line             13                            NV            0 1
+  5            sum            variable          brief             30                             0            0
+  6            sub            variable          brief             34                             0            0
+  7            mul            variable          brief             38                             0            0
+  8            div            variable          brief             42                             0            0
+  9        result1            variable          brief             46                             0            0
+ 10              a            variable          brief             50                             0            0
+ 11              b            variable          brief             54                             0            0
+ 12          value            variable          brief             58                             0            0
+ 13     calculator            function          brief             62                             0            0
+ 14        number1           parameter          brief             65                             0            0 2
+ 15        number2           parameter          brief             68                             0            0 2
+ 16             T0             literal           line             79                        'Sum:'            0 2
+ 17             T1             literal           line             95                        'Sub:'            0 2
+ 18             T2             literal           line            111                        'Mul:'            0 2
+ 19             T3             literal           line            127                        'Div:'            0 2
+ 20              x            variable          brief            152                             0            0
+ 21              y            variable          brief            156                             0            0
+ 22              z            variable          brief            160                             0            0
+ 23        result2            variable          brief            164                             0            0
+ 24            mod            function          brief            168                             0            0
+ 25         number           parameter          brief            171                             0            0 3
+ 26             L0             literal          brief            177                             2            0 3
+ 27             L1             literal          brief            184                             0            0 3
+ 28             L2             literal          brief            190                             1            0 3 4
+ 29             L3             literal          brief            197                             0            0 3 5
+ 30           str1            variable           line            207                            NV            0
+ 31           str2            variable           line            211                            NV            0
+ 32      resultstr            variable           line            215                            NV            0
+ 33            hex            variable          brief            219                             0            0
+ 34          major            function          brief            221                             0            0
+ 35             T4             literal           line            225                  '=========='            0 6
+ 36             T5             literal           line            230                  '*KKV-2020*'            0 6
+ 37             T6             literal           line            235                  '=========='            0 6
+ 38             T7             literal           line            240                      'Kirill'            0 6
+ 39             T8             literal           line            256               'Name length: '            0 6
+ 40             L4             literal          brief            266                            10            0 6
+ 41             L5             literal          brief            270                             5            0 6
+ 42             T9             literal           line            293     'Sum + Sub + Mul + Div: '            0 6
+ 43             L6             literal          brief            303                            18            0 6
+ 44            T10             literal           line            307                     'Number:'            0 6
+ 45             L7             literal          brief            312                            18            0 6
+ 46             L8             literal          brief            326                             1            0 6
+ 47            T11             literal           line            332                        'Even'            0 6 7
+ 48            T12             literal           line            340                         'Odd'            0 6 8
+ 49            T13             literal           line            346                        'Name'            0 6
+ 50            T14             literal           line            350                  'Kravchenko'            0 6
+ 51            T15             literal           line            354                       'Str1:'            0 6
+ 52            T16             literal           line            364                       'Str2:'            0 6
+ 53            T17             literal           line            383                       'Str1:'            0 6
+ 54             L9             literal          brief            393                             0            0 6
+ 55            L10             literal          brief            397                             2            0 6
+ 56            T18             literal           line            403                        'Text'            0 6 9
+ 57            L11             literal          brief            409                          2020            0 6
+ 58            T19             literal           line            413                    'HEX: 7E4'            0 6
+ 59            T20             literal           line            418                        'DEC:'            0 6
+ 60            L12             literal          brief            427                             0            0 6
